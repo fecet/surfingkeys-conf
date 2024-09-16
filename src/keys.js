@@ -13,7 +13,7 @@ const unmaps = {
   mappings: [
     "sb",
     "sw",
-    "ob",
+    // "ob",
     "oe",
     "ow",
     "oy",
@@ -63,15 +63,33 @@ maps.global = [
   },
   {
     alias: "w",
-    map: "k",
+    map: "R",
     category: categories.scroll,
-    description: "Scroll up",
+    description: "next tab",
   },
   {
-    alias: "s",
-    map: "j",
+    alias: "ob",
+    map: "b",
     category: categories.scroll,
-    description: "Scroll down",
+    description: "open bookmark",
+  },
+  {
+    alias: "b",
+    map: "E",
+    category: categories.scroll,
+    description: "prev tab",
+  },
+  {
+    alias: "H",
+    map: "S",
+    category: categories.scroll,
+    description: "prev page",
+  },
+  {
+    alias: "L",
+    map: "D",
+    category: categories.scroll,
+    description: "next page",
   },
   {
     alias: "K",
