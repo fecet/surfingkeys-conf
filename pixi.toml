@@ -1,0 +1,13 @@
+[workspace]
+authors = ["fecet <xiezej@gmail.com>"]
+channels = ["https://repo.prefix.dev/meta-forge", "conda-forge"]
+name = "surfingkeys-conf"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pnpm = "*"
+# nodejs = "22.11.*"
+nodejs = "!=20.19.*,<22.12"
